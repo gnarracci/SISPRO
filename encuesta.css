@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(imagenes/background15.png);
+	font-size: 16px;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+}
+
+#container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+/*----------------------HEADER-------------------------*/
+#logo{
+	display: inline-block;
+	margin-left: 33px;
+	margin-top: 17px;
+}
+
+/*----------------------SLIDES--------------------------*/
+#example{
+	height: 400px;
+	position: relative;
+	width: 970px;
+}
+
+#frame{
+	height: 500px;
+	left: -15px;
+	position: absolute;
+	top: -49px;
+	width: 986px;
+	z-index: 0;
+}
+
+#slides{
+	left: 0px;
+	top: 15px;
+	position: absolute;
+	z-index: 100;
+}
+
+.slides_container{
+	display: none;
+	overflow: hidden;
+	position: relative;
+	width: 960px;
+}
+
+.slides_container{
+	display: block;
+	height: 350px;
+	width: 960px;
+}
+
+.next,.prev{
+	display: block;
+	height: 43px;
+	left: -38px;
+	position: absolute;
+	top: 150px;
+	width: 24px;
+	z-index: 101;
+}
+
+.next{
+	left: 971px;
+}
+
+.pagination{
+	margin: 26px auto 0;
+	width: 100px;
+}
+
+.pagination li{
+	display: inline-block;
+	margin: 0 1px;
+	list-style: none;
+}
+
+.pagination li a{
+	background-image:url(imagenes/pagination.png);
+	background-position: 0 0;
+	display: inline-block;
+	height: 0;
+	overflow: hidden;
+	width: 12px;
+	z-index: 102;
+}
+
+.pagination li.current a{
+	background-position: 0 -12px;
+}
+
+/*-----------------------CUERPO--------------------------*/
+#us{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 24px;
+	font-weight: Bold;
+	margin-left: 500px;
+	margin-top: 46px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 103;
+}
+
+#iconuser{
+	margin-left: 920px;
+	margin-top: 42px;
+	position: absolute;
+	z-index: 104;
+}
+
+#title{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 48px;
+	font-weight: Bold;
+	margin-left: 13px;
+	margin-top: 90px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 105;
+}
+
+#pre{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 36px;
+	font-weight: Bold;
+	margin-left: 828px;
+	margin-top: 150px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 106;
+}
+
+#tipovacante{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 24px;
+	font-weight: Bold;
+	margin-left: 500px;
+	margin-top: 75px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 107;
+}
+
+/*----------------------BOTONES------------------------*/
+#rapport{
+	border-radius: 0.5em;
+	margin-left: 10px;
+	margin-top: 220px;
+	position: absolute;
+	z-index: 112;
+}
+
+#rapport:hover{
+	transform: scale(1.1);
+	-webkit- transform: scale(1.1);
+	-moz- transform: scale(1.1);
+	transition: .2s;
+	-webkit- transition: .2s;
+	-moz- transition: .2s;
+}
+
+#formacion{
+	border-radius: 0.5em;
+	margin-left: 500px;
+	margin-top: 220px;
+	position: absolute;
+	z-index: 108;
+}
+
+#formacion:hover{
+	transform: scale(1.1);
+	-webkit- transform: scale(1.1);
+	-moz- transform: scale(1.1);
+	transition: .2s;
+	-webkit- transition: .2s;
+	-moz- transition: .2s;
+}
+
+#condicion{
+	border-radius: 0.5em;
+	margin-left: 10px;
+	margin-top: 470px;
+	position: absolute;
+	z-index: 109;
+}
+
+#condicion:hover{
+	transform: scale(1.1);
+	-webkit- transform: scale(1.1);
+	-moz- transform: scale(1.1);
+	transition: .2s;
+	-webkit- transition: .2s;
+	-moz- transition: .2s;
+}
+
+#perfil{
+	border-radius: 0.5em;
+	margin-left: 500px;
+	margin-top: 470px;
+	position: absolute;
+	z-index: 110;
+}
+
+#perfil:hover{
+	transform: scale(1.1);
+	-webkit- transform: scale(1.1);
+	-moz- transform: scale(1.1);
+	transition: .2s;
+	-webkit- transition: .2s;
+	-moz- transition: .2s;
+}
+
+#branding{
+	border-radius: 0.5em;
+	margin-left: 25px;
+	margin-top: 760px;
+	position: absolute;
+	z-index: 111;
+}
+
+/*-----------------------------FOOTER-----------------------------*/
+#footercontainer{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#footercon{
+	margin: 0 auto;
+	padding-top: 985px;
+	width: 960px;
+}
+
+.lineafooter{
+	color: #fff;
+	width: 960px;
+}
+
+
+ul#links{
+	list-style: mone;
+	margin: 0;
+	margin: 0 0 0 250px;
+	padding: 0;
+	text-align: center;
+}
+
+ul#links li{
+	color: #000;
+	display: inline;
+	float: left;
+	font-family: 'Agency FB';
+	font-size: 20px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+ul#links li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#links li a:hover{
+	color: #ffff33;
+}
+
+ul#links li span{
+	padding: 0 25px 0 25px;
+}
+
+.copyright{
+	color: #fff;
+	float: left;
+	font-family: 'Agency FB';
+	font-size: 12;
+	margin: 0;
+	margin: 10px 0 0 -66px;
+	padding-bottom: 24px;
+	text-align: center;
+}

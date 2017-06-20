@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin:0;
+padding:0;
+background-image:url(imagenes/background.jpg);
+overflow:auto;
+}
+
+#contenedor{
+width:960px;
+margin:0 auto;
+}
+
+/*--------------------------Header-----------------------------*/
+
+.logo {
+margin-top:17px;
+margin-left:17px;
+float:left;
+margin-bottom:-20px;
+}
+
+#buscador{
+margin-top:13px;
+margin-right:20px;
+float:right;
+width:216px;
+height:46px;
+background:url(imagenes/buscarbg.jpg) no-repeat;
+}
+
+#buscador #s {
+padding:0;
+margin:13px 0 15px 20px;
+border:0;
+width:134px;
+background:transparent;
+font-family: verdana, arial, serif;
+font-size: 14px;
+color:#ced0db;
+float:left;
+font-weight:Bold;
+}
+
+#buscador #go{
+float:right;
+margin:2px 15px 5px 0;
+}
+
+/*--------------------------Navegacion-----------------------------*/
+
+ul#nav{
+clear:both;
+margin:0;
+padding:0;
+list-style:none;
+display:block;
+overflow:hidden;
+margin-left:324px;
+z-index:15;
+}
+
+ul#nav li{
+float:left;
+height:26px;
+}
+
+ul#nav li a{
+display:block;
+height:28px;
+width:159px;
+background:url(imagenes/menubtn.jpg) top left no-repeat;
+text-align:center;
+text-decoration:none;
+color:#ced0db;
+font-family:verdana, arial, serif;
+font-size:14px;
+font-weight:Bold;
+}
+
+ul#nav li a:hover {
+background:url(imagenes/menubtn.jpg) bottom left no-repeat;
+}
+
+/*=== Estado de la Clase Actual Current === */
+
+li.inicio a{
+background:url(imagenes/menubtn.jpg) bottom left no-repeat !important;
+}
+
+/*========== Inicio de la Galeria de Imagenes Slider ==========*/
+
+#galeria {
+clear:both;
+position:relative;
+width:960px;
+height:310px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-webkit-box-shadow:1px 1px 3px #888;
+-moz-box-shadow:1px 1px 3px #888;
+}
+
+#prev{
+position:absolute;
+top:130px;
+left:7px;
+z-index:10;
+}
+
+#next{
+position:absolute;
+top:130px;
+left:915px;
+z-index:10;
+}
+
+.slider{
+overflow:hidden;
+position:relative;
+z-index:1;
+width:960px;
+height:310px;
+}
+
+.slider img{
+margin:0;
+padding:0;
+}
+
+.imagenesSlider{
+margin:0;
+padding:0;
+list-style:none;
+}
+
+/*========== Fin del Slider de Imagenes ==========*/
+
+.sispro{
+position:absolute;
+margin-left:79px;
+margin-top:-36px;
+z-index:10;
+border:0;
+}
+
+.sissha{
+position:absolute;
+margin-left:358px;
+margin-top:-36px;
+z-index:10;
+border:0;
+}
+
+.sisrol{
+position:absolute;
+margin-left:634px;
+margin-top:-36px;
+z-index:10;
+border:0;
+}
+
+/*========== Fin del Header ==========*/
+
+/*========== Comienzo del Cuerpo ==========*/
+
+#cuerpo{
+margin-top:10px;
+width:960px;
+height:488px;
+background-color:#adb5d0;
+overflow:hidden;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+-webkit-box-shadow:1px 1px 3px #888;
+-moz-box-shadow:1px 1px 3px #888;
+}
+
+#articulos{
+width:586px;
+padding-top:35px;
+margin-left:18px;
+float:left;
+}
+
+#articulos h1{
+padding:0;
+margin:0;
+color:#ffffff;
+font-size:18px;
+font-family:verdana, arial, serif;
+width:586px;
+height:32px;
+background-color:#0000ff;
+text-align:left;
+}
+
+.espacio{
+margin-top:6px;
+}
+
+p.parrafo{
+margin:0;
+padding:7px 18px 10px 7px;
+width:561px;
+background-color:#dcdceb;
+color:#000008;
+font-family:verdana, arial, serif;
+font-size:14px;
+text-align:justify;
+}
+
+p.parrafo span{
+display:block;
+text-align:right;
+margin-right:1px;
+margin-top:1px;
+font-weight:Bold;
+}
+
+p.parrafo span a{
+text-decoration:none;
+color:#000008;
+}
+
+#eventos{
+margin-top:25px
+}
+
+#eventos #fecha{
+	float:left;
+	margin-left:10px;
+	margin-top:-5px;
+	background:url(imagenes/calendario.png) no-repeat;
+	width:94px;
+	height:102px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-right:15px;
+}
+
+#contenedor #cuerpo #articulos #eventos #fecha .mes {
+	font-family: Tahoma, verdana, arial, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFF;
+	margin-left:32px;
+	margin-top:15px;
+}
+#contenedor #cuerpo #articulos #eventos #fecha .dia {
+	font-size: 50px;
+	font-weight: bold;
+	text-align:center;
+	margin-top:10px;
+	}
+
+#articulos h1{
+padding:0;
+margin:0;
+color:#ffffff;
+font-size:18px;
+font-family:verdana, arial, serif;
+width:586px;
+height:32px;
+background-color:#0000ff;
+text-align:left;
+}
+
+/*============ INICIO DEL PANEL LATERAL ============*/
+#sidebar{
+float:right;
+width:314px;
+padding-top:35px;
+margin-right:18px;
+}
+
+#sidebar h2{
+padding:0;
+margin:0;
+color:#ffffff;
+font-size:18px;
+font-family:verdana, arial, serif;
+width:314px;
+height:32px;
+background-color:#0000ff;
+text-align:left;
+}
+
+#FlashID{
+margin-top:32px;
+
+}
+
+/*============= COMIENZO DEL PREFOOTER =============*/
+
+#footer{
+margin:0 auto;
+}
+
+#footer #enlaces{
+width:960px;
+margin:0 auto;
+}
+
+#footer h3{
+margin:0;
+padding:0;
+padding-top:15px;
+margin-left:19px;
+font-family:verdana, arial, serif;
+font-size:18px;
+font-style:italic;
+color:#fbfbfb;
+font-weight:normal;
+}
+
+#footer ul.listados{
+margin:0;
+padding:0;
+list-style:none;
+padding-left:33px;
+padding-top:7px;
+}
+
+#footer ul.listados li{
+margin:0;
+padding:0;
+font-family:verdana, arial, serif;
+font-size:14px;
+font-weight:Bold;
+color:#fbfbfb
+}
+
+#footer ul.listados li a{
+color:#fbfbfb;
+text-decoration:none;
+}
+
+#footer ul.listados li a:hover{
+color:#ebebf5;
+text-decoration:underline;
+}
+
+.footerDiv{
+display:block;
+padding:5px 0 5px 0;
+}
+
+#carbon{
+float:left;
+}
+
+#direccion{
+float:right;
+margin-right:18px;
+}
+
+.sedes{
+border:0;
+}
+
+.cienajuan{
+position:absolute;
+margin-top:111px;
+margin-left:76px;
+border:0;
+}
+
+#social{
+float:right;
+margin-right:18px;
+}
+
+.facebook{
+border:0;
+}
+
+.twitter{
+border:0;
+}
+
+.youtube{
+border:0;
+}
+
+/*============ Fin del Prefooter y Comienzo del Footer ============*/
+
+#pie{
+width:100%;
+margin:0 auto;
+}
+
+#contenedorfooterPie{
+width:960px;
+margin:0 auto;
+padding-top:25px;
+}
+
+.lineafooter{
+width:960px;
+color:#ffffff;
+float:left;
+}
+
+ul#footerPie{
+list-style:none;
+margin:0;
+padding:0;
+text-align:center;
+margin:0 0 0 190px;
+}
+
+ul#footerPie li{
+font-family:verdana, arial, serif;
+font-size:15px;
+text-transform:uppercase;
+color:#ffffff;
+display:inline;
+float:left;
+padding-top:10px;
+}
+
+ul#footerPie li a{
+color:#ffffff;
+text-decoration:none;
+}
+
+ul#footerPie li a:hover{
+color:#ffff33
+}
+
+ul#footerPie li span{
+padding:0 20px 0 20px;
+}
+
+.copyright{
+margin:0;
+padding:0;
+text-align:center;
+float:left;
+margin:10px 0 0 -155px;
+font-family:verdana, arial, serif;
+font-size:12px;
+color:#ffffff;
+padding-bottom:24px;
+}
+
+.copyright span{
+padding:0 5px 0 5px;
+}

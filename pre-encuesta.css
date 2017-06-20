@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(imagenes/background15.png);
+	font-size: 16px;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+}
+
+#container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+/*----------------------HEADER-------------------------*/
+#logo{
+	display: inline-block;
+	margin-left: 33px;
+	margin-top: 17px;
+}
+
+/*----------------------SLIDES--------------------------*/
+#example{
+	height: 400px;
+	position: relative;
+	width: 990px;
+}
+
+#is-1{
+	background-color: #fff;
+    border-radius: 5px;
+    height: 0px;
+    margin-left: -14px;
+    margin-top: -362px;
+    padding: 6px;
+    position: absolute;
+    width: 973px;
+    z-index: 1; 
+}
+
+#is-2{
+	background-color: #fff;
+    border-radius: 5px;
+    height: 362px;
+    margin-left: -14px;
+    margin-top: -362px;
+    padding: 6px;
+    position: absolute;
+    width: 3px;
+    z-index: 1; 
+}
+
+#is-3{
+	background-color: #fff;
+    border-radius: 5px;
+    height: 362px;
+    margin-left: 960px;
+    margin-top: -362px;
+    padding: 6px;
+    position: absolute;
+    width: -1px;
+    z-index: 1; 
+}
+
+#is-4{
+	background-color: #fff;
+    border-radius: 5px;
+    height: 0px;
+    margin-left: -14px;
+    margin-top: 0px;
+    padding: 6px;
+    position: absolute;
+    width: 973px;
+    z-index: 1; 
+}
+
+#slides{
+	left: 0px;
+	top: 15px;
+	position: absolute;
+	z-index: 100;
+}
+
+.slides_container{
+	display: none;
+	overflow: hidden;
+	position: relative;
+	width: 960px;
+}
+
+.slides_container{
+	display: block;
+	height: 350px;
+	width: 960px;
+}
+
+.next,.prev{
+	display: block;
+	height: 43px;
+	left: -38px;
+	position: absolute;
+	top: 150px;
+	width: 24px;
+	z-index: 101;
+}
+
+.next{
+	left: 972px;
+}
+
+.pagination{
+	margin: 26px auto 0;
+	width: 100px;
+}
+
+.pagination li{
+	display: inline-block;
+	margin: 0 1px;
+	list-style: none;
+}
+
+.pagination li a{
+	background-image:url(imagenes/pagination.png);
+	background-position: 0 0;
+	display: inline-block;
+	height: 0;
+	overflow: hidden;
+	width: 12px;
+	z-index: 102;
+}
+
+.pagination li.current a{
+	background-position: 0 -12px;
+}
+
+/*-----------------------CUERPO--------------------------*/
+#us{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 24px;
+	font-weight: Bold;
+	margin-left: 527px;
+	margin-top: 46px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 103;
+}
+
+#iconuser{
+	margin-left: 920px;
+	margin-top: 42px;
+	position: absolute;
+	z-index: 104;
+}
+
+#float{
+	bottom:320px;
+	display:scroll;
+	position:fixed;
+	right:-25px;
+}
+
+#title{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 48px;
+	font-weight: Bold;
+	margin-left: 13px;
+	margin-top: 90px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 105;
+}
+
+#pre{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 36px;
+	font-weight: Bold;
+	margin-left: 828px;
+	margin-top: 150px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 106;
+}
+
+#pres{
+	color: yellow;
+	font-family: 'Agency FB';
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-top: 155px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 107;
+}
+
+/*----------------------------Elementos---------------------------*/
+#is-0{
+	background-color: #fff;
+	border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(255,255,255, 1);
+    height: 485px;
+    margin-left: 10px;
+    margin-top: 191px;
+    opacity: 0.3; 
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    width: 925px;
+    z-index: 100;
+}
+
+#branding{
+	border-radius: 0.5em;
+	margin-left: 25px;
+	margin-top: 760px;
+	position: absolute;
+	z-index: 111;
+}
+
+#view{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 38px;
+	margin-top: 236px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 120;
+}
+
+#is-5{
+	background-color: #3131db;
+	border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(255,255,255, 1);
+    height: 15px;
+    margin-left: 25px;
+    margin-top: 220px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    width: 340px;
+    z-index: 119; 
+}
+
+#ver-vacantes{
+	font-family: 'Agency FB';
+	font-size: 20px;
+	margin-left: 255px;
+	margin-top: 233px;
+	position: absolute;
+	z-index: 120;
+}
+
+#listarvacantes{
+	font-family: 'Agency FB';
+	font-size: 16px;
+}
+
+#listarvacantes .centerTXT{
+	text-align: center;
+}
+
+#puesto{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 35px;
+	margin-top: 325px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 120;
+}
+
+#is-6{
+	background-color: #3131db;
+	border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(255,255,255, 1);
+    height: 15px;
+    margin-left: 25px;
+    margin-top: 310px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    width: 530px;
+    z-index: 119; 
+}
+
+#info{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 410px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 120;
+}
+
+#notificacion{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: 440px;
+	position: absolute;
+	text-align: center;
+	text-shadow: 1px 1px 5px #fff;
+	width: 945px;
+	z-index: 120;
+}
+
+#sign{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 18px;
+	margin-left: 700px;
+	margin-top: 552px;
+	position: absolute;
+	text-shadow: 1px 1px 5px #fff;
+	z-index: 120;
+}
+
+#is-7{
+	background-color: #3131db;
+	border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(255,255,255, 1);
+    height: 160px;
+    margin-left: 15px;
+    margin-top: 397px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    width: 915px;
+    z-index: 119; 
+}
+
+#inicio{
+	font-family: 'Agency FB';
+	font-size: 20px;
+	margin-left: 425px;
+	margin-top: 635px;
+	position: absolute;
+	z-index: 120;
+}
+
+#is-8{
+	background-color: #3131db;
+	border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(255,255,255, 1);
+    height: 40px;
+    margin-left: 280px;
+    margin-top: 616px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    width: 363px;
+    z-index: 119; 
+}
+
+#tcv{
+	margin-left: 675px;
+	margin-top: 235px;
+	position: absolute;
+	z-index: 120;
+}
+
+#datos-registro p{
+	font-family: 'Agency FB';
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#datos-registro input{
+	font-family: 'Agency FB';
+	font-size: 18px;
+	height: 25px;
+}
+
+#datos-registro select{
+	font-family: 'Agency FB';
+	font-size: 16px;
+}
+
+#datos-registro .ajaxLoader span{
+	font-family: 'Agency FB';
+	font-size: 16px;
+}
+
+#datos-registro{
+	text-align: center;
+}
+
+#datos-registro button{
+	font-family: 'Agency FB';
+	font-size: 18px;
+}
+
+/*-----------------------------FOOTER-----------------------------*/
+#footercontainer{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#footercon{
+	margin: 0 auto;
+	padding-top: 985px;
+	width: 960px;
+}
+
+.lineafooter{
+	color: #fff;
+	width: 960px;
+}
+
+
+ul#links{
+	list-style: mone;
+	margin: 0;
+	margin: 0 0 0 250px;
+	padding: 0;
+	text-align: center;
+}
+
+ul#links li{
+	color: #000;
+	display: inline;
+	float: left;
+	font-family: 'Agency FB';
+	font-size: 20px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+ul#links li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#links li a:hover{
+	color: #ffff33;
+}
+
+ul#links li span{
+	padding: 0 25px 0 25px;
+}
+
+.copyright{
+	color: #fff;
+	float: left;
+	font-family: 'Agency FB';
+	font-size: 12;
+	margin: 0;
+	margin: 10px 0 0 -66px;
+	padding-bottom: 24px;
+	text-align: center;
+}

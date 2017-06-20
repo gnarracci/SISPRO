@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(imagenes/calif_profesional.png);
+	margin:0;
+	overflow:auto;
+	padding:0;
+}
+
+#contenedor{
+	margin:0 auto;
+	width:960;
+}
+
+/****************CUERPO*********************/
+#alert{
+	font-weight: bold;
+}

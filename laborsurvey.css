@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(imagenes/background11.png);
+	margin:0;
+	overflow:auto;
+	padding:0;
+}
+
+#contenedor{
+	margin:0 auto;
+	width:960;
+}
+
+/*------------------------------ Header -----------------------------------*/
+.logo{
+	display:inline-block;
+	margin-left:229px;
+	margin-top:13px;
+	}
+
+.logo2{
+	margin-left:380px;
+	margin-top:43px;
+}
+
+/*----------------------------Contenido---------------------------------*/
+#session{
+	color:#000;
+	font-family:'Agency FB', Verdana, Arial, sans-serif;
+	font-size:18px;
+	font-weight:Bold;
+	margin-left:1025px;
+	margin-top:20px;
+	position:absolute;
+	text-shadow:1px 1px 1px #325179;
+	z-index:19;
+}
+
+#cuerpo{
+	background-image:url(imagenes/encuestas.png);
+	height:550px;
+	margin-top:15px;
+	margin-left:195px;
+	overflow: hidden;
+	width:960px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:1px 1px 3px #888;
+	-webkit-box-shadow:1px 1px 3px #888;
+	-webkit-border-radius:5px;
+	z-index:18;
+}
+
+#float{
+	bottom:320px;
+	display:scroll;
+	position:fixed;
+	right:0px;
+}
+
+#cerrar{
+	margin-left:1000px;
+	margin-top:45px;
+	position:absolute;
+	z-index:20;
+}
+
+/*----------------------- Menu --------------------------*/
+
+/*--------------------Footer----------------------*/
+footer{
+    margin:0 auto;
+}
+
+footer #enlaces{
+    margin:0 auto;
+    width:960px;    
+}
+
+footer h3{
+    margin:0;
+    padding:0;
+    padding-top:15px;
+    margin-left:19px;
+    font-family:'Agency FB', Arial, serif;
+    font-size:22px;
+    font-weight:normal;
+    font-style:italic;
+    color:#fbfbfb;
+}
+
+footer ul.leyes{
+    margin:0;
+    padding:0;
+    list-style:none;
+    padding-left:33px;
+    padding-top:7px;
+}
+
+footer ul.leyes li{
+    margin:0;
+    padding:0;
+    font-family:'Agency FB', arial, serif;
+    font-size:13px;
+    font-weight:Bold;
+    color:#fbfbfb;
+}
+
+footer ul.leyes li a{
+    color:#fbfbfb;
+    text-decoration:none;
+}
+
+footer ul.leyes li a:hover{
+    color:#ebebf5;
+}
+
+.footerDiv{
+    display:block;
+    padding:5px 0 5px 0;
+}
+
+.sedes{
+    border:0;
+    margin-top:-42px;
+    margin-left:170px;
+    z-index:25;
+}
+
+/*===================== PIE DE PAGINA ======================*/
+
+#pie{
+    margin:0 auto;
+    width:100%;
+}
+
+#footerpie{
+    margin:0 auto;
+    width:960px;
+    z-index:26;
+}
+
+.lineafooter{
+    color:#ffffff;
+    width:960px;
+}
+
+ul#underfooter{
+    margin:0;
+    padding:0;
+    list-style:none;
+    margin:0 0 0 240px;
+}
+
+ul#underfooter li{
+    font-family:'Agency FB', arial, serif;
+    font-size:15px;
+    text-transform:uppercase;
+    color:#ffffff;
+    display:inline;
+    padding-top:10px;
+}
+
+ul#underfooter li a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+ul#underfooter li a:hover{
+    color:#ffff33;
+}
+
+ul#underfooter li span{
+    padding:0 20px 0 20px;
+}
+
+.copyright{
+    margin:0;
+    padding:0;
+    text-align:center;
+    margin:10px 0 0 10px;
+    font-family:'Agency FB', arial, serif;
+    font-size:12px;
+    color:#ffffff;
+    padding-bottom:12px;
+}
+

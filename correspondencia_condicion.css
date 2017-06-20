@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(imagenes/correspondenciabg2.png);
+	margin:0;
+	overflow:auto;
+	padding:0;
+}
+
+#contenedor{
+	margin:0 auto;
+	width:960;
+}
+
+/*========================= HEADER =========================*/
+#correspondenciahd{
+	margin-left: 200px;
+	margin-top: 105px;
+	position: absolute;
+	z-index: 1;
+}
+
+/*========================= BODY ============================*/
+#float{
+	bottom:320px;
+	display:scroll;
+	position:fixed;
+	right:8px;
+}
+
+#ir{
+    bottom:320px;
+    display:scroll;
+    position:fixed;
+    left:8px;
+}
+
+#titulo{
+	color: #fff;
+	font-family: 'Agency FB';
+	font-size: 36px;
+	font-weight: bold;
+	margin-left: 344px;
+	margin-top: 390px;
+	position: absolute;
+	z-index: 3;
+}
+
+#is{
+	background-color: #ef59a1;
+	border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(239,89,161,0.7);
+    height: 40px;
+    margin-left: 330px;
+    margin-top: 371px;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    width: 663px;
+    z-index: 2;
+}
+
+/*========================CUERPO============================*/
+.a_demo_one{
+    font-family: 'Agency FB';
+    font-size: 18px;
+    z-index: 12;
+    background-color: #ef59a1;
+    padding: 10px;
+    text-decoration: none;
+    color:#fff;
+    border: solid 1px #e83b8e;
+    background-image: linear-gradient(bottom, rgb(239,89,161) 0%, rgb(242,38,136) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(239,89,161) 0%, rgb(242,38,136) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(239,89,161) 0%, rgb(242,38,136) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(239,89,161) 0%, rgb(242,38,136) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(239,89,161) 0%, rgb(242,38,136) 100%);
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(239,89,161)),
+    color-stop(1, rgb(242,38,136))
+    );
+    -webkit-box-shadow: inset 0px 1px 0px #d988af, 0px 1px 0px #fff;
+    -moz-box-shadow: inset 0px 1px 0px #d988af, 0px 1px 0px #fff;
+    box-shadow: inset 0px 1px 0px #d988af, 0px 1px 0px #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(239,89,161,0.5);
+}
+
+.a_demo_one::before{
+    -moz-border-radius: 5px;
+    -moz-box-shadow: inset 0px 1px 1px #b4889d, 0px 1px 0px #fff;
+    -o-border-radius: 5px;
+    -o-box-shadow: inset 0px 1px 1px #b4889d, 0px 1px 0px #fff;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: inset 0px 1px 1px #b4889d, 0px 1px 0px #fff;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 1px #b4889d, 0px 1px 0px #fff;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -8px;
+    padding: 8px;
+    position: absolute;
+    top: -8px;
+    width: 100%;
+    z-index: -1;
+}
+
+.a_demo_one::active{
+    background-image: -moz-linear-gradient(bottom, rgb(44,161,195) 0%, rgb(0,187,242) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(44,161,195) 0%, rgb(0,187,242) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,161,195) 0%, rgb(0,187,242) 100%);
+    background-image: -webkit-gradient(
+    background-image: -webkit-linear-gradient(bottom, rgb(44,161,195) 0%, rgb(0,187,242) 100%);
+    background-image: linear-gradient(bottom, rgb(44,161,195) 0%, rgb(0,187,242) 100%);
+    color-stop(0, rgb(44,161,195)),
+    color-stop(1, rgb(0,187,242))
+    left bottom,
+    left top,
+    linear,
+    padding-bottom:9px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:11px;
+    top:1px;
+    );
+}
+
+#ver-preguntas{
+	margin-left: 430px;
+    margin-top: 504px;
+    position: absolute;
+    z-index: 7;
+}
+
+#is-2{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(239,89,161,0.7);
+    height: 40px;
+    margin-left: 340px;
+    margin-top: 490px;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    width: 622px;
+    z-index: 2;
+}
+
+#listarapport{
+    font-family: 'Agency FB';
+    font-size: 16px;
+}
+
+#ver-respuestas{
+    margin-left: 618px;
+    margin-top: 504px;
+    position: absolute;
+    z-index: 7;
+}
+
+#relacion{
+    margin-left: 815px;
+    margin-top: 504px;
+    position: absolute;
+    z-index: 7; 
+}
+
+#is-3{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(239,89,161,0.7);
+    height: 345px;
+    margin-left: 250px;
+    margin-top: 602px;
+    opacity: 0.9;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    width: 800px;
+    z-index: 3;
+}
+
+#sipi{
+    font-family: 'Agency FB';
+    font-size: 18px;
+    font-weight: bold;
+    left: 365px;
+    position: absolute;
+    top: 690px;
+    z-index: 5;
+}
+
+#r-1{
+    font-family: 'Agency FB';
+    font-size: 16px;
+    left: 390px;
+    position: absolute;
+    text-align: center;
+    top: 720px;
+    width: 40px;
+    z-index: 6;
+}
+
+#r-2{
+    font-family: 'Agency FB';
+    font-size: 16px;
+    left: 625px;
+    position: absolute;
+    text-align: center;
+    top: 765px;
+    width: 40px;
+    z-index: 6;
+}
+
+#r-3{
+    font-family: 'Agency FB';
+    font-size: 16px;
+    left: 870px;
+    position: absolute;
+    text-align: center; 
+    top: 810px;
+    width: 40px;
+    z-index: 6;
+}
+
+#is-4{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(239,89,161,0.7);
+    height: 146px;
+    margin-left: 334px;
+    margin-top: 660px;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    width: 135px;
+    z-index: 4; 
+}
+
+#idp{
+    font-family: 'Agency FB';
+    font-size: 18px;
+    font-weight: bold;
+    left: 590px;
+    position: absolute;
+    top: 690px;
+    z-index: 5;
+}
+
+
+#is-5{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(239,89,161,0.7);
+    height: 146px;
+    margin-left: 572px;
+    margin-top: 660px;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    width: 135px;
+    z-index: 4; 
+}
+
+#idr{
+    font-family: 'Agency FB';
+    font-size: 18px;
+    font-weight: bold;
+    left: 830px;
+    position: absolute;
+    text-align: center;
+    top: 690px;
+    z-index: 5;
+}
+
+#is-6{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(239,89,161,0.7);
+    height: 146px;
+    margin-left: 813px;
+    margin-top: 660px;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    width: 135px;
+    z-index: 4; 
+}
+
+#corresponde{
+    left: 472px;
+    position: absolute;
+    top: 913px;
+    z-index: 6;
+}
+
+#reset{
+    left: 695px;
+    position: absolute;
+    top: 913px;
+    z-index: 6; 
+}
+
+#anun{
+    font-family: 'Agency FB';
+    font-size: 40px;
+    margin-left: 470px;
+    margin-top: 615px;
+    position: absolute;
+    z-index: 7;
+}
+
+#is-7{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(239,89,161,0.7);
+    height: 40px;
+    margin-left: 450px;
+    margin-top: 879px;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    width: 325px;
+    z-index: 5;
+}
+
+#ayuda{
+    left: 1033px;
+    position: absolute;
+    top: 950px;
+    z-index: 10;
+}
+
+#doc{
+    left: 988px;
+    position: absolute;
+    top: 950px;
+    z-index: 10;  
+}
+
+#flecha{
+    left: 509px;
+    position: absolute;
+    top: 742px;
+    z-index: 10;
+}
+
+#flecha2{
+    left: 747px;
+    position: absolute;
+    top: 742px;
+    z-index: 10;
+}
+
+#listacorresponde{
+    font-family: 'Agency FB';
+    font-size: 16px;
+}
+
+/*======================== FONDO ============================*/
+#seleccion{
+	border-radius: 0.5em;
+	margin-left: 680px;
+	margin-top: 1000px;
+	position: absolute;
+	z-index: 111;
+}
+
+#recl{
+	font-family: 'Agency FB';
+	font-size: 40px;
+	margin-left: 200px;
+	margin-top: 1050px;
+	position: absolute;
+	z-index: 112;
+}
+
+#dept{
+	font-family: 'Agency FB';
+	font-size: 35px;
+	margin-left: 200px;
+	margin-top: 1115px;
+	position: absolute;
+	z-index: 113;
+}
+
+#ver{
+	font-family: 'Agency FB';
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 200px;
+	margin-top: 1180px;
+	position: absolute;
+	z-index: 112;
+}
+
+#logo{
+	margin-left: 200px;
+	margin-top: 1240px;
+	position: absolute;
+	z-index: 113;
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(imagenes/bgmessage.png);
+	margin:0;
+	overflow:auto;
+	padding:0;
+}
+
+#contenedor{
+	margin:0 auto;
+	width:960;
+}
+
+/*=================== HEADER ======================*/
+#cabecera{
+	margin-left: 196px;
+	margin-top: 50px;
+	position: absolute;
+	z-index: 1;
+}
+
+#alert{
+	font-weight: bold;
+}
+
+/*==================== BODY ========================*/
+#container{
+	border-radius: 6px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+	height: 400px;
+	margin: 0 auto;
+	max-width: 960px;
+	min-width: 400px;
+	opacity: 0.8;
+	position: relative;
+	top: 280px;
+	z-index: 2;
+}
+
+#regresar{
+	margin-left: 1002px;
+	margin-top: -115px;
+	position: absolute;
+	z-index: 4;
+}
+
+/*==================== FOOTER =====================*/
+
+#footercontainer{
+	margin: 0 auto;
+	width: 100%;	
+}
+
+#footercon{
+	margin: 0 auto;
+	padding-top: 300px;
+	width: 960px;
+}
+
+.lineafooter{
+    color:#ffffff;
+    width:960px;
+}
+
+
+ul#links{
+	list-style: mone;
+	margin: 0;
+	margin: 0 0 0 250px;
+	padding: 0;
+	text-align: center;
+}
+
+ul#links li{
+	color: #000;
+	display: inline;
+	float: left;
+	font-family: 'Agency FB';
+	font-size: 20px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+ul#links li a{
+	color: #000;
+	text-decoration: none;
+}
+
+ul#links li a:hover{
+	color: #00bbf2;
+}
+
+ul#links li span{
+	padding: 0 25px 0 25px;
+}
+
+.copyright{
+	color: #000;
+	float: left;
+	font-family: 'Agency FB';
+	font-size: 12;
+	margin: 0;
+	margin: 10px 0 0 -66px;
+	padding-bottom: 24px;
+	text-align: center;
+}

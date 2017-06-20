@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(imagenes/background14.png);
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+}
+
+#contenedor{
+	margin: 0 auto;
+	height: 100%;
+	width: 960px;
+}
+
+/*-----------------------logos------------------------*/
+.logo{
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 53px;
+}
+
+.logo2{
+	margin-left: 390px;
+	margin-top: 44px;
+}
+
+/*--------------------Contenido-----------------------*/
+#container{
+	margin-top: 80px;
+	height: 100%;
+	width: 960px;
+}
+
+#nombre{
+	font-family: 'Agency FB';
+	font-size: 22px;
+	font-weight: Bold;
+	margin-top: 5px;
+	position: absolute;
+	text-shadow:1px 1px 1px #325179;
+	z-index: 19;
+}
+
+#titulo{
+	font-family: 'Agency FB';
+	font-size: 26px;
+	font-weight: Bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px #325179;
+}
+
+#cuerpo{
+	margin: 0 auto;
+	width: 960px;
+}
+
+#mintra{
+	margin-left: 276px;
+	margin-top: 200px;
+	position: absolute;
+	z-index: 13;
+}
+
+#inpsasel{
+	margin-left: 482px;
+	margin-top: 186px;
+	position: absolute;
+	z-index: 15;
+}
+
+#ivss{
+	margin-left: 639px;
+	margin-top: 195px;
+	position: absolute;
+	z-index: 16;
+}
+
+#bana{
+	margin-left: 795px;
+	margin-top: 192px;
+	position: absolute;
+	z-index: 18;
+}
+
+#inces{
+	margin-left: 995px;
+	margin-top: 192px;
+	position: absolute;
+	z-index: 18;
+}
+
+#footerconteiner{
+	margin: 0 auto;
+	width: 100%;	
+}
+
+#footercon{
+	margin: 0 auto;
+	padding-top: 300px;
+	width: 960px;
+}
+
+.lineafooter{
+    color:#000;
+    width:960px;
+}
+
+
+ul#links{
+	list-style: mone;
+	margin: 0;
+	margin: 0 0 0 250px;
+	padding: 0;
+	text-align: center;
+}
+
+ul#links li{
+	color: #000;
+	display: inline;
+	float: left;
+	font-family: 'Agency FB';
+	font-size: 20px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+ul#links li a{
+	color: #000;
+	text-decoration: none;
+}
+
+ul#links li a:hover{
+	color: #ffff33;
+}
+
+ul#links li span{
+	padding: 0 25px 0 25px;
+}
+
+.copyright{
+	color: #000;
+	float: left;
+	font-family: 'Agency FB';
+	font-size: 12;
+	margin: 0;
+	margin: 10px 0 0 -66px;
+	padding-bottom: 24px;
+	text-align: center;
+}
